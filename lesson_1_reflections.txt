@@ -1,0 +1,32 @@
+Vergleichen von zwei Dateien:
+1.	cd zum Ort der Datei.
+2.	diff datei_alt datei_neu
+diff -u ... einfacherere Ansicht
+
+access to the eintire history:
+	find problems better
+	backup for restoring older working states
+
+wie oft man speichern sollte / vorteile dies manuell zu bestimmen:
+	manuelles bestimmen:
+	durch das manuelle bestimmen werden bearbeitungsabschnitte einfacher ersichtlich und helfen beim debuggen
+	problem der Speichergröße -> wenn zu selten oder zu oft gespeichert werden gehen informationen oder die übersicht verlore
+
+wie oft man speichern sollte / vorteile dies manuell zu bestimmen:
+	manuelles bestimmen:
+	durch das manuelle bestimmen werden bearbeitungsabschnitte einfacher ersichtlich und helfen beim debuggen
+	problem der Speichergröße -> wenn zu selten oder zu oft gespeichert werden gehen informationen oder die übersicht verloren
+	
+
+Mehrere Dateien gleichzeitig speichern:
+	durch die übergreifenden Informationen sinvoll	
+
+git log 
+	zeigt alle einträge in Zeitlicher reihenfolge mit id und kommentar
+
+git diff id_1 id_2
+	zeigt die unterschiede der beiden versionen an
+
+git checkout id
+	ändert die dateien in einen früheren gespeicherten standpunkt
+	hilft für das finden von bugs / wiederherstellen des funktionierenden programms
